@@ -1,8 +1,14 @@
 
 public class Product {
     String name;
-    int price;
+    double price;
+    Product(String n, double p) {
+        name = n;
+        price = p;
+    }
 }
+
+
 
 
 
